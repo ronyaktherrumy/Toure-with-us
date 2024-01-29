@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -7,12 +7,13 @@
     <title>Natureeeeeeee</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+
 </head>
 
 <body>
     <!-- code start here  -->
     <nav>
-        <div class="navbar bg-gray-600 text-white">
+        <div class="navbar bg-gray-300 text-white">
             <div class="navbar-start">
                 <div class="dropdown">
                     <div tabindex="0" role="button" class="btn lg:hidden">
@@ -25,7 +26,7 @@
                     <ul tabindex="0"
                         class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
                         <li><a>home</a></li>
-                        <li>
+                        <li class="bg-red-500">
                             <a>Blog</a>
                             <ul class="p-2">
                                 <li><a>blog 1</a></li>
@@ -37,13 +38,13 @@
                 </div>
                 <a class=" text-2xl lg:text-3xl ml-3 font-bold">Hero <span style="color: red;">Travel</span></a>
             </div>
-            <div class="navbar-center hidden lg:flex">
+            <div class="navbar-center hidden lg:flex ">
                 <ul class="menu menu-horizontal px-1">
                     <li><a class="text-red-600">Home</a></li>
                     <li>
                         <details>
-                            <summary>Blog</summary>
-                            <ul class="p-2">
+                            <summary class="bg-red-500">Blog</summary>
+                            <ul class="p-2 bg-red-600">
                                 <li><a>blog 1</a></li>
                                 <li><a>blog 2</a></li>
                             </ul>
@@ -53,7 +54,9 @@
                 </ul>
             </div>
             <div class="navbar-end mr-4">
-                <button class="btn btn-outline border-red-500">Contact</button>
+
+                <button class="  btn bg-red-500 text-white">Contact</button>
+
             </div>
         </div>
     </nav>
@@ -62,11 +65,12 @@
 
     <!-- banner section start here  -->
     <header>
-        <div class="hero min-h-screen" style="background-image: url(./img/AdobeStock_635236389_Preview.jpeg);">
+        <div class="hero min-h-screen"
+            style="background-image: url(./img/lawn-natural-products-board-sunny-parks-form.jpg);">
             <div class="hero-overlay bg-opacity-60"></div>
             <div class="hero-content text-center text-neutral-content">
                 <div class="max-w-sm lg:max-w-max text-white pt-6 lg:pt-4">
-                    <h1 class="mb-3 lg:mb-5 text-4xl lg:text-6xl font-bold">Explore Your Travel</h1>
+                    <h1 class="mb-3 lg:mb-5 text-4xl lg:text-6xl font-bold ">Explore Your Travel</h1>
                     <h2 class="text-2xl lg:text-3xl font-bold mb-3 lg:mb-5">WITH US</h2>
                     <p class="mb-12">Dolor sit amet consectetur. Nullam suspendisse vitae <br> ultricies dolor
                         adipiscing. In et odio
@@ -74,8 +78,8 @@
                     <div class="bg-zinc-300 text-zinc-300 py-2 space-x-3 ">
                         <button class="btn bg-slate-50 text-gray-500">Wheare</button>
                         <details class="dropdown">
-                            <summary class="m-1 btn">Select type</summary>
-                            <ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
+                            <summary class="m-1 btn bg-red-600 text-white">Select type</summary>
+                            <ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52 bg-red-500">
                                 <li><a>type 1</a></li>
                                 <li><a>type 2</a></li>
                             </ul>
@@ -113,7 +117,7 @@
 
         <!-- destination section  -->
         <section class="px-20 mt-0">
-            <h1 class="text-3xl font-extrabold lg:text-5xl my-5">Choose Your Destination</h1>
+            <h1 class="text-3xl font-extrabold lg:text-5xl my-5 text-red-600">Choose Your Destination</h1>
             <p class="mb-5 lg:mb14"> Dolor sit amet consectetur. Diam volutpat neque
                 habitasse pharetra odio sit massa.
                 Sodales dictumst nec nibh pellentesque.</p>
@@ -131,16 +135,16 @@
                     <img src="./img/shanghai-water-modern-beautiful-panorama-waterfront.jpg" alt="">
                 </div>
                 <div class="hover:blur-sm">
-                    <img src="./img/freshness-outdoor-tropical-background-spring-beautiful.jpg" alt="">
+                    <img src="./img/AdobeStock_117657239_Preview.jpeg" alt="">
                 </div>
                 <div class="hover:blur-sm">
-                    <img src="./img//AdobeStock_340861324_Preview.jpeg" alt="">
+                    <img src="./img/AdobeStock_484547081_Preview.jpeg" alt="">
                 </div>
                 <div class="hover:blur-sm">
                     <img src="./img/AdobeStock_197674455_Preview.jpeg" alt="">
                 </div>
                 <div class="hover:blur-sm">
-                    <img src="./img/AdobeStock_117657239_Preview.jpeg" alt="">
+                    <img src="./img//AdobeStock_340861324_Preview.jpeg" alt="">
                 </div>
             </div>
         </section>
@@ -149,7 +153,8 @@
 
         <section class="px-12 mt-16 ">
             <h1 class="px-12 text-3xl lg:text-5xl text-center mb-4 font-extrabold text-red-600">Why Choose Us</h1>
-            <p class="px-12 text-center"> Dolor sit amet conshover:blur-smectetur. Diam volutpat neque <br> habitasse pharetra odio
+            <p class="px-12 text-center"> Dolor sit amet conshover:blur-smectetur. Diam volutpat neque <br> habitasse
+                pharetra odio
                 sit massa.
                 Sodales dictumst nec nibh pellentesque.</p>
             <div class="flex flex-col lg:flex-row justify-center items-center space-x-6 mt-9 text-black">
@@ -177,7 +182,7 @@
 
 
         <!-- new card  -->
-        <section class="flex justify-center items-center mt-10 mb-20">
+        <section class="flex justify-center items-center mt-6 mb-20">
             <div class="card w-80 lg:w-96 bg-green-100 shadow-xl text-center hover:bg-green-200">
                 <div class="card-body">
                     <h2 class="text-2xl lg:text-3xl font-bold text-black">Handpicked Hotels</h2>
@@ -199,6 +204,7 @@
 
     </footer>
     <!-- foot section end  -->
+
 </body>
 
 </html>
