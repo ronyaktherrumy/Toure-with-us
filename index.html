@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Natureeeeeeee</title>
+    <title>Natureee</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
 
@@ -38,12 +38,12 @@
                 </div>
                 <a class=" text-2xl lg:text-3xl ml-3 font-bold">Hero <span style="color: red;">Travel</span></a>
             </div>
-            <div class="navbar-center hidden lg:flex ">
+            <div class="navbar-center hidden flex-col lg:flex ">
                 <ul class="menu menu-horizontal px-1">
                     <li><a class="text-red-600">Home</a></li>
                     <li>
                         <details>
-                            <summary class="bg-red-500">Blog</summary>
+                            <summary class="bg-red-500 ">Blog</summary>
                             <ul class="p-2 bg-red-600">
                                 <li><a>blog 1</a></li>
                                 <li><a>blog 2</a></li>
@@ -55,7 +55,7 @@
             </div>
             <div class="navbar-end mr-4">
 
-                <button class="  btn bg-red-500 text-white">Contact</button>
+                <button class="  btn btn-outline border-t-zinc-500 bg-red-500 text-white">Contact</button>
 
             </div>
         </div>
@@ -75,16 +75,17 @@
                     <p class="mb-12">Dolor sit amet consectetur. Nullam suspendisse vitae <br> ultricies dolor
                         adipiscing. In et odio
                         enim ac quis sapien urna eu phasellus.</p>
-                    <div class="bg-zinc-300 text-zinc-300 py-2 space-x-3 ">
-                        <button class="btn bg-slate-50 text-gray-500">Wheare</button>
+                    <div class="bg-zinc-300  py-2 space-x-3 bg-opacity-70 ">
+                        <button class="btn btn-outline border-t-zinc-500 bg-slate-50 text-gray-500">Wheare</button>
                         <details class="dropdown">
-                            <summary class="m-1 btn bg-red-600 text-white">Select type</summary>
+                            <summary class="m-1 btn btn-outline border-t-zinc-500 bg-red-600 text-white">Select type
+                            </summary>
                             <ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52 bg-red-500">
                                 <li><a>type 1</a></li>
                                 <li><a>type 2</a></li>
                             </ul>
                         </details>
-                        <button class="btn bg-slate-50 text-gray-500">See More</button>
+                        <button class="btn btn-outline border-t-zinc-500 bg-slate-50 text-gray-500">See More</button>
 
                     </div>
                 </div>
@@ -93,14 +94,15 @@
     </header>
     <!-- banner section end here  -->
 
+
     <!-- main section start  -->
-    <main>
-        <div class=" min-h-screen lg:mt-20 px-16 ">
+    <main class="min-h-screen">
+        <div class=" min-h-screen lg:mt-20 px-12  lg:px-24 text-center lg:text-start">
             <div class="hero-content flex-col lg:flex-row-reverse gap-10">
                 <img src="./img/AdobeStock_197674455_Preview.jpeg"
-                    class="min-w-sm lg:max-w-lg rounded-lg shadow-2xl mt-6" />
+                    class="max-w-sm lg:max-w-2xl rounded-lg shadow-2xl mt-6 " />
                 <div class="">
-                    <h1 class="text-3xl lg:text-5xl font-bold text-red-600">Our Popular Tours</h1>
+                    <h1 class="text-3xl lg:text-5xl font-bold text-red-600 font-extrabold">Our Popular Tours</h1>
                     <p class="py-8 ">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit
                         massa. Sodales dictumst nec nibh pellentesque.
                         Accumsan eget et turpis praesent lorem egestas enim elit
@@ -109,54 +111,21 @@
                         ornare nulla amet et. ibero commodo sagittis dignissim adipiscing quis.
                         Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus
                         semper tincidunt.</p>
-                    <button class="btn bg-red-600 text-white">Read more</button>
+                    <button
+                        class="btn btn-outline border-t-zinc-500 bg-red-600 text-white sm:items-center justify-center ">Read
+                        more</button>
                 </div>
             </div>
         </div>
 
 
-        <!-- destination section  -->
-        <section class="px-20 mt-0">
-            <h1 class="text-3xl font-extrabold lg:text-5xl my-5 text-red-600">Choose Your Destination</h1>
-            <p class="mb-5 lg:mb14"> Dolor sit amet consectetur. Diam volutpat neque
-                habitasse pharetra odio sit massa.
-                Sodales dictumst nec nibh pellentesque.</p>
-            <div class="grid grid-rows-3 grid-flow-col gap-4">
-                <div class="hover:blur-sm">
-                    <img src="./img/freshness-outdoor-tropical-background-spring-beautiful.jpg" alt="">
-                </div>
-                <div class="hover:blur-sm">
-                    <img src="./img/trees-wild-falls-asian-saigon-famous.jpg" alt="">
-                </div>
-                <div class="hover:blur-sm">
-                    <img src="./img/tree-natural-pattern-summer-leaves-colorful.jpg" alt="">
-                </div>
-                <div class="hover:blur-sm">
-                    <img src="./img/shanghai-water-modern-beautiful-panorama-waterfront.jpg" alt="">
-                </div>
-                <div class="hover:blur-sm">
-                    <img src="./img/AdobeStock_117657239_Preview.jpeg" alt="">
-                </div>
-                <div class="hover:blur-sm">
-                    <img src="./img/AdobeStock_484547081_Preview.jpeg" alt="">
-                </div>
-                <div class="hover:blur-sm">
-                    <img src="./img/AdobeStock_197674455_Preview.jpeg" alt="">
-                </div>
-                <div class="hover:blur-sm">
-                    <img src="./img//AdobeStock_340861324_Preview.jpeg" alt="">
-                </div>
-            </div>
-        </section>
 
         <!-- chose us section start here  -->
 
-        <section class="px-12 mt-16 ">
-            <h1 class="px-12 text-3xl lg:text-5xl text-center mb-4 font-extrabold text-red-600">Why Choose Us</h1>
-            <p class="px-12 text-center"> Dolor sit amet conshover:blur-smectetur. Diam volutpat neque <br> habitasse
-                pharetra odio
-                sit massa.
-                Sodales dictumst nec nibh pellentesque.</p>
+        <section class="px-12 mt-10 lg:mt-16 ">
+            <h1 class="px-12 text-3xl lg:text-5xl text-center mb-4 font-extrabold text-red-600">Why Choose Us?</h1>
+            <p class="px-12 text-center"> Dolor sit amet conshover:blur-smectetur. Diam volutpat neque habitasse
+                pharetra odio <br> sit massa. Sodales dictumst nec nibh pellentesque.</p>
             <div class="flex flex-col lg:flex-row justify-center items-center space-x-6 mt-9 text-black">
                 <div class="card w-80 lg:w-96 bg-red-100 shadow-xl hover:bg-red-300">
                     <div class="card-body">
@@ -183,7 +152,7 @@
 
         <!-- new card  -->
         <section class="flex justify-center items-center mt-6 mb-20">
-            <div class="card w-80 lg:w-96 bg-green-100 shadow-xl text-center hover:bg-green-200">
+            <div class="card w-80 lg:w-96 bg-green-100 shadow-xl hover:bg-green-300">
                 <div class="card-body">
                     <h2 class="text-2xl lg:text-3xl font-bold text-black">Handpicked Hotels</h2>
                     <p>Amet consectetur. Vulputate commodo felis molestie risus ornare
@@ -193,14 +162,168 @@
                 </div>
             </div>
         </section>
+        <!-- end new card  -->
+
+
+
+        <!-- start discount section  -->
+
+        <section class="px-5 lg:px-28 space-y-7 lg:space-y-10 mb-14">
+            <h1 class="text-center text-3xl lg:text-5xl text-red-600 font-extrabold">Deals & Discount</h1>
+            <p class="font-semibold text-center"> Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
+                odio <br> sit massa.
+                Sodales dictumst nec nibh pellentesque.</p>
+            <div class="hero min-h-96 " style="background-image: url(./img/trees-wild-falls-asian-saigon-famous.jpg);">
+                <div class="hero-overlay bg-opacity-50"></div>
+
+                <div class="w-72 lg:w-96 h-72 bg-white bg-opacity-70 text-black p-1 lg:p-3 rounded-2xl hover:bg-white">
+                    <div class="card-body max-w-md ">
+                        <h2 class="font-bold text-red-600 text-2xl lg:text-3xl">Tour To Digolbag</h2>
+                        <p class="text-black font-semibold">Amet consectetur. Vulputate commodo felis
+                            dignissim adipiscing quis. Habitant adipiscing.</p>
+                        <h3 class="text-lg lg:text-xl text-red-500 font-semibold">Price: $1300-$1500</h3>
+                        <div class="card-actions justify-start">
+                            <button class="btn btn-outline border-t-zinc-500 bg-red-600 text-white">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero min-h-96 " style="background-image: url(./img/AdobeStock_484547081_Preview.jpeg);">
+                <div class="hero-overlay bg-opacity-50"></div>
+
+                <div class="w-72 lg:w-96 h-72 bg-white bg-opacity-70 text-black p-1 lg:p-3 rounded-2xl hover:bg-white">
+                    <div class="card-body max-w-md ">
+                        <h2 class="font-bold text-red-600 text-2xl lg:text-3xl">Tour To Jaflong</h2>
+                        <p class="text-black font-semibold">Amet consectetur. Vulputate commodo felis
+                            dignissim adipiscing quis. Habitant adipiscing.</p>
+                        <h3 class="text-lg lg:text-xl text-red-500 font-semibold">Price: $1300-$1500</h3>
+                        <div class="card-actions justify-start">
+                            <button class="btn btn-outline border-t-zinc-500 bg-red-600 text-white">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero min-h-96 " style="background-image: url(./img/trees-wild-falls-asian-saigon-famous.jpg);">
+                <div class="hero-overlay bg-opacity-50"></div>
+
+                <div class="w-72 lg:w-96 h-72 bg-white bg-opacity-70 text-black p-1 lg:p-3 rounded-2xl hover:bg-white">
+                    <div class="card-body max-w-md ">
+                        <h2 class="font-bold text-red-600 text-2xl lg:text-3xl">Tour To Satorini</h2>
+                        <p class="text-black font-semibold">Amet consectetur. Vulputate commodo felis
+                            dignissim adipiscing quis. Habitant adipiscing.</p>
+                        <h3 class="text-lg lg:text-xl text-red-500 font-semibold">Price: $1300-$1500</h3>
+                        <div class="card-actions justify-start">
+                            <button class="btn btn-outline border-t-zinc-500 bg-red-600 text-white">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-center justify-center">
+                <button class="btn btn-outline border-t-zinc-500 bg-red-600 text-white ">See All Packeg</button>
+
+            </div>
+        </section>
+
+        <!-- end discount section  -->
+
+        <!-- perfect place section start here -->
+        <div class="hero min-h-96 bg-base-200 px-12 lg:px-28 ">
+            <div class="hero-content flex-col lg:flex-row-reverse ">
+
+                <video class="w-full h-80" controls>
+                    <source src="./img/pexels_videos_1448735 (2160p).mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
+                <div>
+                    <h1 class="text-3xl lg:text-5xl text-red-600 font-extrabold">A Simple Perfect Place!</h1>
+                    <p class="py-6 font-semibold">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+                        excepturi <br>exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <button class="btn btn-outline border-t-zinc-500 bg-red-600 text-white ">See More</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- perfect place section  end here-->
+
+
+
+        <!-- subscrive section start here  -->
+
+        <div
+            class="hero min-h-screen px-12 lg:px-28 flex flex-col lg:flex-row-reverse justify-center items-center gap-10">
+
+            <div class="hero-content ">
+
+                <div class="card shrink-0 w-96 max-w-sm shadow-2xl bg-red-100">
+                    <form class="card-body">
+                        <div class="form-control">
+                            <label class="label">
+                                <span class="label-text">Email</span>
+                            </label>
+                            <input type="email" placeholder="email" class="input input-bordered" required />
+                        </div>
+                        <div class="form-control">
+                            <label class="label">
+                                <span class="label-text">Password</span>
+                            </label>
+                            <input type="password" placeholder="password" class="input input-bordered" required />
+                            <label class="label">
+                                <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                            </label>
+                        </div>
+                        <div class="form-control mt-6">
+                            <button
+                                class="btn btn-outline border-t-zinc-500 bg-red-600 text-white text-xl ">Subscrive</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+            <div> <img src="./img/AdobeStock_340861324_Preview.jpeg" alt="" class="min-w-60 lg:w-full h-96"></div>
+        </div>
+
+        <!-- subscrive section end here  -->
+
     </main>
     <!-- main section end here  -->
 
 
     <!-- foot section start  -->
 
+    <footer class="footer footer-center p-10 bg-gray-200 text-black mt-7 h-80">
+        <aside>
+            <h1 class="text-red-500 text-3xl lg:text-4xl font-extrabold">Hero Travel</h1>
+            <p class="font-bold">
+                ACME Industries Ltd. <br>Providing reliable tech since 1992
+            </p>
+            <p>Copyright © 2024 - All right reserved</p>
 
-    <footer>
+        </aside>
+
+        <nav>
+            <div class="grid grid-flow-col gap-4">
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        class="fill-current">
+                        <path
+                            d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z">
+                        </path>
+                    </svg></a>
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        class="fill-current">
+                        <path
+                            d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
+                        </path>
+                    </svg></a>
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        class="fill-current">
+                        <path
+                            d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
+                        </path>
+                    </svg></a>
+            </div>
+        </nav>
 
     </footer>
     <!-- foot section end  -->
